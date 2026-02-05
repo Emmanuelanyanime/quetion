@@ -13,32 +13,51 @@ body{
     justify-content: end;
     margin: 20px;
     font-size: 20px;
+    color: white;
+}
+.scores{
+background-color: #10B981;
+padding: 4px;
+border-radius: 10px;
+width: 70px;
+height: 20px;
 }
 .former{
-    background-color: brown;
-    color: white;
+    background-color: #f3f4f6;
     height: 280px;
     width: 385px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 2px 1px 1px 3px black;
 }
 .quetion{
-    font-size: 28px;
-    color: white;
+    font-size: 33px;
+   color: black;
 }
 input[type="text"]{
     width: 340px;
     height: 30px;
-    border-radius: 5px;
-    border-color: darkred;
+    border-radius: 9px;
     outline: none;
+}
+input[type="text"]:focus{
+  border-color: green;
 }
 input[type="submit"]{
     margin-top: 30px;
     width: 348px;
     height: 40px;
     border-radius: 10px;
-    color: darkred;
+    color: white;
     font-size: 20px;
+    background: linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);
+    
 }
-
+#submit:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+    box-shadow: 3px 3px black;
+}
+#submit:active{
+    transform: translateY(0);
+}
