@@ -23,7 +23,7 @@ body{
     text-align: center;
 }
 .quetion{
-    font-size: 33px;
+    font-size: 28px;
     color: white;
 }
 input[type="text"]{
@@ -41,3 +41,4 @@ input[type="submit"]{
     color: darkred;
     font-size: 20px;
 }
+
