@@ -50,7 +50,7 @@ input[type="submit"]{
     border-radius: 10px;
     color: white;
     font-size: 20px;
-    background: linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);
+   background-color: #10B981;
     
 }
 #submit:hover{
@@ -61,4 +61,5 @@ input[type="submit"]{
 #submit:active{
     transform: translateY(0);
 }
+
 
