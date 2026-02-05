@@ -31,7 +31,7 @@ height: 20px;
     box-shadow: 2px 1px 1px 3px black;
 }
 .quetion{
-    font-size: 33px;
+    font-size: 28px;
    color: black;
 }
 input[type="text"]{
@@ -61,3 +61,4 @@ input[type="submit"]{
 #submit:active{
     transform: translateY(0);
 }
+
